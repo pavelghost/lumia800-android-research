@@ -1,0 +1,2 @@
+add_lunch_combo cm_lumia800-userdebug
+add_lunch_combo cm_lumia800-eng
