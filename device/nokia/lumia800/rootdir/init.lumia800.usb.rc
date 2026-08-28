@@ -1,0 +1,12 @@
+# Lumia 800 CM13 FunctionFS ADB v0.8
+#
+# This build does NOT use /sys/class/android_usb/android0.
+# The kernel runs the standalone FunctionFS gadget.
+# adbd detects /dev/usb-ffs/adb/ep0 and writes its descriptors itself.
+
+on property:sys.usb.config=adb
+    start adbd
+    setprop sys.usb.state adb
+
+on property:init.svc.adbd=stopped
+    setprop sys.usb.state none
