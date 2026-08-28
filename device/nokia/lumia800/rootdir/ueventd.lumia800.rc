@@ -1,0 +1,4 @@
+/dev/ttyMSM0              0660   root       shell
+/dev/ttyMSM1              0660   root       shell
+/dev/ttyHS0               0660   root       shell
+/dev/kgsl-3d0             0666   system     graphics
