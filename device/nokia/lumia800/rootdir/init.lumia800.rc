@@ -1,0 +1,19 @@
+import /init.lumia800.usb.rc
+
+on early-init
+    write /proc/sys/kernel/printk "8 8 1 7"
+
+on init
+    mkdir /data 0771 system system
+    mkdir /cache 0770 system cache
+    mkdir /persist 0771 system system
+
+on fs
+    mkdir /dev/usb-ffs 0775 shell shell
+    mkdir /dev/usb-ffs/adb 0770 shell shell
+    mount functionfs adb /dev/usb-ffs/adb uid=2000,gid=2000
+
+on boot
+    setprop persist.sys.usb.config adb
+    setprop sys.usb.config adb
+    start adbd
