@@ -1,0 +1,22 @@
+# Verified uploaded artifacts
+bf467e7bef7fcdca10dda2cc0e9ea955f1142d7804327ce3b042b233848443cf  Lumia800-EMMCBOOT-stock-v10-20260828-103953(1).MBN
+7777c74403541f7881bc6f9ace6327769a9da9c494f6bf5b8567ddef0e03f29d  Lumia800-experimental-EMMCBOOT-20260828-100931.MBN
+04694c44046ed9b4be70eefb7f5e5b350ea211824f18b9183f80c4056f09a65a  lumia800-fat(2).zip
+5ec49996567803a790043f8a408c2dc2183a3d53154cb04f7d86bb7154484da0  arm-2009q1-toolchain(3).zip
+d72cdf8977eadbc860719453e7dbef3872ef1143783c7c42f41f0cebafac80d1  lumia800-device-tree-audit(3).zip
+2ce8034cfc884d7bbe4c5371559fecc347867427a1f7ac26a394f7cfbcb6be9e  lumia800-kernel-v0.5-source(4).zip
+
+# Toolchain payload
+0004b59223f8151d1af211894e5c76c142e4c0e4529b531bf8f5565ec7f08ae6  arm-2009q1-203-arm-none-linux-gnueabi-i686-pc-linux-gnu.tar.bz2
+
+# lumia800-fat.img
+933e31eef4decc8be0f110d843ff31a6791aed542f10d97b98788a8771ea8baa  lumia800-fat.img
+eeb1752559096c6315c115dff517666a5e406c67d306357708bca68a15e1b851  IMAGE2/AMSS.MBN
+1d2ea08efdde127aa5dd8b10ea4886c97b3e625ff936ee6a97bdcf1a7a727abb  IMAGE2/ADSP.MBN
+bf467e7bef7fcdca10dda2cc0e9ea955f1142d7804327ce3b042b233848443cf  IMAGE2/EMMCBOOT.MBN
+
+# Kernel artifacts
+03afa698eab4ad9b40071b6927c2fdbf53eb866397794c3841bf55ee2d7bcf4e  device/nokia/lumia800/prebuilt/zImage
+453c46beb9963c4dbc82dcf2c04acc965ad50284d9a2ded68bd1d5d2f555ed47  kernel-lumia800-v0.5/arch/arm/boot/zImage
+58566387a7871d2488258b83a659722c32a069b63ff67d9b03946d6fa47888f5  kernel-lumia800-v0.5/arch/arm/boot/Image
+8a1fb52b0e8ddc97618929976815683168e4166d0c081690eadc4bca065e9475  kernel-lumia800-v0.5/System.map
