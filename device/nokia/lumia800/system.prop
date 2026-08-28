@@ -1,0 +1,6 @@
+ro.hardware=lumia800
+ro.board.platform=msm7x30
+ro.product.board=msm8x55
+ro.sf.lcd_density=240
+persist.sys.usb.config=adb
+persist.service.adb.enable=1
